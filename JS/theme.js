@@ -1,16 +1,5 @@
-
-//funçao para mudar o nome do home na barra de navegaçao
-const para = document.querySelector(".nome");
-
-para.addEventListener('click', atualizarNome);
-
-function atualizarNome(){
-    var nome = prompt('Insira seu nome');
-    para.textContent = 'Seja bem vindo  ' + nome + '!';
-}
-
 const botao = document.querySelectorAll('label');
-const teme = document.querySelector('.body');
+const teme = document.querySelector('body');
 
 function changeText(){
 //mudar icone
@@ -28,4 +17,7 @@ function changeText(){
     })
 //mudar o tema de fundo
     teme.classList.toggle('bg-dark');
+    teme.classList.toggle('text-white');
+
+
 }

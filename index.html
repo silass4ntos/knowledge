@@ -36,33 +36,46 @@
         </div>
 
     </nav>
-    
-    <!--lâmpada liga/desliga-->
 
-            <div class=" text-center mt-5">
+    <div class=" container mt-5">
+        <div class="row">
+            
+            <div class="col">
+                <div class="container">
+                    <h1 class="mt-5">Lâmpada com interruptor liga/desliga</h1>
+                    <p class="mt-4">
+                        feita com uma linha simples de JS (java script).
+                        onde o click muda a img de uma lâmpada acesa para uma apagada
+                    </p>
+                    <div class="card p-3">
+                        <code>onclick="document.getElementById('lampada').src='assets/pic_bulbon.gif'"</code>
+                    </div>
+                    
+                </div>
                 
-                <div class="container mb-3"> 
+            </div>
+<!--lãmpada liga/desliga-->
+            <div class="col text-center">
+                <div class="container py-4"> 
                     <img class="" id="lampada" src="assets/pic_bulboff.gif" alt="">
                 </div>
-
                 <div class="btn-group-vertical shadow border rounded " role="group" aria-label="Vertical radio toggle button group ">
-    
                     <input type="radio" class="btn-check" name="vbtn-radio" autocomplete="off" id="on"  onclick="document.getElementById('lampada').src='assets/pic_bulbon.gif'">
                     <label class="btn-outline-dark btn border-0" for="on">Liga</label>
         
                     <input type="radio" class="btn-check" name="vbtn-radio" autocomplete="off" id="off" checked onclick="document.getElementById('lampada').src='assets/pic_bulboff.gif'">
                     <label class="btn-outline-dark btn border-0" for="off">Desliga</label>
-    
                 </div>
-
-                
-
             </div>
+
+        </div>
+    </div>
 
 
 
 </body>
-<script src="script.js"></script>
+<script src="JS/theme.js"></script>
+<script src="JS/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </html>
