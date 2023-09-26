@@ -6,6 +6,18 @@ para.addEventListener('click', atualizarNome);
 
 function atualizarNome(){
     var nome = prompt('Insira seu nome');
-    para.textContent = 'Seja bem vindo  ' + nome + '!';
+    if(nome.length <= 10){
+        if(nome === '' ){
+            para.textContent = 'Tudo bem então ╮(╯-╰)╭ ' 
+        }
+        else{
+            para.textContent = 'Seja bem vindo(a)  ' + nome + '!';
+        }
+    }
+    else{
+        alert("O limite de caracteres é 10")
+    }
+    
+    
 }
 

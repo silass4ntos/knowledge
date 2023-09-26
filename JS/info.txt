@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------------------
+Variaveis
+
+String: Variável de texto que deve ser declarada com apóstrofos ou aspas. var variavel = ‘Ola mundo’;
+Numérico: Numerais inteiros ou flutuantes. var variavel = 3;
+Boolean: Variável verdadeira (true) ou falsa (false). var variavel = true;
+Array: Coleção de dados sequenciais. var meuArray = [‘um’,2,’tres’,4];
+Objeto: Coleção de dados organizados como chaves e valores que permite outros tipos de dados. var meuObjeto = { 1: “olá”, 2: “tudo bem” }
+
+-------------------------------------------------------------------------------------------
+Operadores
+
+==	Igual.
+===	Igual e do mesmo tipo.
+!=	Diferente.
+!==	Diferente e de tipos diferentes.
+> 	Maior que.
+<	Menor que.
+>=	Maior ou igual.
+<=	Menor ou igual.
+
+-------------------------------------------------------------------------------------------
+Operadores logicos
+
+Entrada #1	Entrada #2	AND	OR	NOT
+0	            0	    0	0	1
+1	            0	    0	1	1 (AND) / 0 (OR)
+0	            1	    0	1	1 (AND) / 0 (OR)
+1	            1	    1	1	0
+1	            -	    -	-	0
+0	            -	    -	-	1
