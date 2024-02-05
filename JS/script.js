@@ -1,4 +1,3 @@
-
 //funçao para mudar o nome do home na barra de navegaçao
 const para = document.querySelector(".nome");
 
@@ -20,4 +19,3 @@ function atualizarNome(){
     
     
 }
-
