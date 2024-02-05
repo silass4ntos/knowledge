@@ -32,7 +32,7 @@
         </div>
         <!--botoes temas-->
         <div class="text-end nav px-0 mx-0">
-            <a onclick="changeText()" class="nav-link tema" href="#" id="tema">🌞</a>
+            <a onclick="changeText()" class="nav-link tema " href="#" id="tema" style="font-size: x-large;">🌞</a>
         </div>
 
     </nav>
@@ -50,16 +50,21 @@
                     <div class="card p-3">
                         <code>onclick="document.getElementById('lampada').src='assets/pic_bulbon.gif'"</code>
                     </div>
-                    
+                    <p class="mt-4">
+                        <h5>Traduzindo o codigo</h5>
+                    Clicou no botâo = Procure por um elemento com o ID 'lampada'
+                    troque a imagem por outra imagem
+                    </p>
                 </div>
                 
             </div>
+
 <!--lãmpada liga/desliga-->
             <div class="col text-center">
-                <div class="container py-4"> 
-                    <img class="" id="lampada" src="assets/pic_bulboff.gif" alt="">
+                <div class="container mt-5"> 
+                    <img class="pb-2" id="lampada" src="assets/pic_bulboff.gif" alt="">
                 </div>
-                <div class="btn-group-vertical shadow border rounded " role="group" aria-label="Vertical radio toggle button group ">
+                <div class="btn-group-vertical shadow border rounded" role="group" aria-label="Vertical radio toggle button group ">
                     <input type="radio" class="btn-check" name="vbtn-radio" autocomplete="off" id="on"  onclick="document.getElementById('lampada').src='assets/pic_bulbon.gif'">
                     <label class="btn-outline-dark btn border-0" for="on">Liga</label>
         
